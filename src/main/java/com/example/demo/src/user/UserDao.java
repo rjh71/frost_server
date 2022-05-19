@@ -52,6 +52,7 @@ public class UserDao {
 
     }
 
+
     // 회원 게시글 조회
     public List<GetUserPostsRes> selectUserPosts(int userIdx){
         String selectUserPostsQuery = "\n" +
