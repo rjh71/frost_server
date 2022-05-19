@@ -40,15 +40,25 @@ com/example/demo/src/user/model/DeleteUserRes.java
  com.example.demo.src.user.model.DeleteUserRes
 com/example/demo/src/user/model/GetUserFeedRes.java
  com.example.demo.src.user.model.GetUserFeedRes
-com/example/demo/src/user/UserDao.java
- com.example.demo.src.user.UserDao
-com/example/demo/src/user/model/GetUserPostsRes.java
- com.example.demo.src.user.model.GetUserPostsRes
-com/example/demo/src/user/UserService.java
- com.example.demo.src.user.UserService
 com/example/demo/src/user/model/GetUserInfoRes.java
  com.example.demo.src.user.model.GetUserInfoRes
+com/example/demo/src/user/model/GetUserPostsRes.java
+ com.example.demo.src.user.model.GetUserPostsRes
+com/example/demo/src/post/model/GetPostImgRes.java
+ com.example.demo.src.post.model.GetPostImgRes
+com/example/demo/src/post/PostController.java
+ com.example.demo.src.post.PostController
+com/example/demo/src/user/UserDao.java
+ com.example.demo.src.user.UserDao
+com/example/demo/src/user/UserService.java
+ com.example.demo.src.user.UserService
+com/example/demo/src/post/PostDao.java
+ com.example.demo.src.post.PostDao
 com/example/demo/src/user/UserController.java
  com.example.demo.src.user.UserController
+com/example/demo/src/post/model/GetPostsRes.java
+ com.example.demo.src.post.model.GetPostsRes
 com/example/demo/src/user/UserProvider.java
  com.example.demo.src.user.UserProvider
+com/example/demo/src/post/PostProvider.java
+ com.example.demo.src.post.PostProvider
