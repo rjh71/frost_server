@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class GetUserInfoRes {
-
+    private int userIdx;
     private String nickName;
     private String name;
     private String profileImgUrl;
@@ -18,4 +18,6 @@ public class GetUserInfoRes {
     private int followerCount;
     private int followingCount;
     private int postCount;
+
+
 }

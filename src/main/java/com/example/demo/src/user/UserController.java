@@ -36,15 +36,22 @@ public class UserController {
 
 
 
-
+    // 회원 피드 조회
     @ResponseBody
     @GetMapping("/{userIdx}")
-    public BaseResponse<GetUserFeedRes> getUserFeed(@PathVariable("userIdx")int userIdx) {
-        try{
+    public BaseResponse<GetUserFeedRes> getUserFeed(@PathVariable("userIdx") int userIdx){
+        try {
+             /* TODO: jwt는 다음주차에서 배울 내용입니다!
+            jwt에서 idx 추출.
+            int userIdxByJwt = jwtService.getUserIdx();
+            GetUserFeedRes getUserFeed=userProvider.retrieveUserFeed(userIdx,userIdxByJwt);
+               TODO: 우선 아래 코드로 진행해주세요!
+            */
 
-            GetUserFeedRes getUserFeedRes = userProvider.retrieveUserFeed(userIdx, userIdx);
-            return new BaseResponse<>(getUserFeedRes);
-        } catch(BaseException exception){
+            GetUserFeedRes getUserFeed=userProvider.retrieveUserFeed(userIdx,userIdx);
+
+            return new BaseResponse<>(getUserFeed);
+        } catch (BaseException exception) {
             return new BaseResponse<>((exception.getStatus()));
         }
     }

@@ -11,9 +11,9 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 public class GetUserFeedRes {
-
     private boolean _isMyFeed;
     private GetUserInfoRes getUserInfo;
-    private List<GetUserPostsRes> getUserPost;
+    private List<GetUserPostsRes> getUserPosts;
+
 
 }
